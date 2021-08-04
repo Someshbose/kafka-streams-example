@@ -1,4 +1,4 @@
-package guru.learningjournal.kafka.examples;
+package someshbose.github.io.kafka;
 
 class AppConfigs {
     final static String applicationID = "HelloStreams";

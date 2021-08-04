@@ -1,4 +1,4 @@
-package guru.learningjournal.kafka.examples;
+package someshbose.github.io.kafka;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

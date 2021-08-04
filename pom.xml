@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>guru.learningjournal.kafka.examples</groupId>
-    <artifactId>hello-streams</artifactId>
+    <groupId>someshbose.github.io</groupId>
+    <artifactId>kafka-streams-example</artifactId>
     <version>2.3.0</version>
 
     <parent>
