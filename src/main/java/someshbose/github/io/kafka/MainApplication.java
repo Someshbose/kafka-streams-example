@@ -4,15 +4,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import someshbose.github.io.kafka.config.MessageProducer;
 
 @SpringBootApplication
 public class MainApplication implements CommandLineRunner {
 
-  @Autowired
-  private HelloProducer producer;
-
-  @Autowired
-  private HelloStreams consumer;
+//  @Autowired
+//  private MessageProducer producer;
+//
+//  @Autowired
+//  private HelloStreams consumer;
 
   public static void main(String[] args) {
     SpringApplication.run(MainApplication.class,args);
@@ -22,6 +23,6 @@ public class MainApplication implements CommandLineRunner {
 
   @Override public void run(String... args) throws Exception {
     //producer.send(getProperties());
-    consumer.load();
+    //consumer.load();
   }
 }
